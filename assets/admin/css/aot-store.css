@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Libertinus+Sans:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Condensed:wght@100..900&family=Roboto+Flex:opsz,wght,XOPQ,XTRA,YOPQ,YTDE,YTFI,YTLC,YTUC@8..144,100..1000,96,468,79,-203,738,514,712&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+*{
+      font-family: "Ubuntu", sans-serif;
+}
+:root {
+    --firstColor: #2F4F4F;
+    --secondColor:#6B4F34;
+}
+#nav {
+   background-color: #fff;
+   box-shadow: 1px 4px 2px rgba(199, 198, 198, 0.3);
+}
+#nav ul li a:hover {
+   background-color: var(--secondColor);
+   color: #fff;
+   transition: all 0.3s ease-in;
+   border-radius: 6px;
+
+}
+#header img {
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+    object-position: center 10%;
+}
+
+/* Sign In */
+.main-image img {
+position: relative;
+width: 100%;
+height: 750px;
+object-fit: cover;
+}
+.form {
+    position: absolute;
+    top: 20%;
+    right: 30%;
+    width: 100%;
+    width: 500px;
+    padding: 20px;
+    background-color: #6B4F34;
+    opacity: 90%;
+    border-radius: 10px;
+}
+.form label {
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+}
+.form input {
+     display: block;
+     border: 0;
+     outline: 0;
+     padding: 10px;
+     width: 100%;
+     font-family: sans-serif;
+     position: relative;
+     border-radius: 5px;
+     
+}
+.form .line {
+    max-width: 240px;
+    height: 2px;
+    background-color: orange;
+    margin: 15px auto;
+}
+.form button {
+    width: 100%;
+    padding: 7px 3px;
+    background: olive;
+    color: #fff;
+    border: 0;
+    outline: 0;
+}
+
+@media(max-width: 994px) {
+ .form {
+    width: 55%;
+ }
+}
+/* Header Section */
+.header-text a:hover {
+  color: #e72c2c;
+}
